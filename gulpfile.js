@@ -10,10 +10,7 @@ let preprocessor = 'scss', // Preprocessor (sass, scss, less, styl)
 let paths = {
 
   scripts: {
-    src: [
-      // 'node_modules/jquery/dist/jquery.min.js', // npm vendor example (npm i --save-dev jquery)
-      baseDir + '/js/app.js' // app.js. Always at the end
-    ],
+    src: baseDir + '/js/app.js',
     dest: projectDir + '/js',
   },
 
